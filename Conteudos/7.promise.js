@@ -53,4 +53,4 @@ minhaPromessa(false)
         console.log("Promessa 3 realizada");
     });
 
-console.log("Esta mensagem vai aparecer antes da promessa")
+console.log("Esta mensagem vai aparecer antes da promessa");

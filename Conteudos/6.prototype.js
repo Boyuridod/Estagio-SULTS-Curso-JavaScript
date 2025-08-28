@@ -15,3 +15,4 @@ const Gato = {
 Object.setPrototypeOf(Gato, Animal);
 
 console.log(Gato.catalogo())
+
