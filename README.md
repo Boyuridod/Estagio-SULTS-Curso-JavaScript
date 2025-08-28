@@ -8,6 +8,7 @@ Aqui estão meus programas e exercícios de fixação em **JavaScript**, feitos 
 ## 🏆 Destaques
 
 - 📌 `15.recursao.js` → Nele está a função de exponenciação rápida
+- 📌 `18.memoization.js` → Aprendi o conceito de memoization, armazenar informações úteis em cache
 
 ## 📂 Conteúdos
 
@@ -28,6 +29,12 @@ Aqui estão meus programas e exercícios de fixação em **JavaScript**, feitos 
 - 📌 `13.deconstruct.js` → **Destructuring assignment**  
 - 📌 `14.valorespredefinidos.js` → Valores padrão em funções  
 - 📌 `15.recursao.js` → Aprendendo recurção
+- 📌 `16.closure.js` → Conceito de **closure**
+- 📌 `17.GettersSetters.js` → Uso de **getters e setters**
+- 📌 `18.memoization.js` → Aprendi o conceito de memoization, armazenar informações úteis em cache
+
+Se você quiser, posso organizar toda a lista em **ordem numerada e padronizada**, deixando os nomes dos arquivos todos em minúsculas e consistentes, pronto para documentação. Quer que eu faça isso?
+
 
 ---
 
