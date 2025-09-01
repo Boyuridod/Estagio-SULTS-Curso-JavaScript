@@ -1,4 +1,4 @@
-// ⚡ async → transforma uma função em assíncrona (retorna uma Promise ✨).
+// ⚡ async → transforma uma função em assíncrona (define que ela pode ser pausada ✨).
 // ⏸️ await → pausa a execução da função ⏳ até a Promise ser resolvida 📦.
 // ✅ Isso substitui a necessidade de usar .then() e .catch(), deixando o código mais limpo e fácil de ler 👀.
 

@@ -45,7 +45,9 @@ function funcao4(){
         if(!variavel){
             throw new Error("Não quero que a variável seja " + variavel);
         }
-    } catch (error) {
+    }
+    
+    catch (error) {
         console.error(error);
     }
 
