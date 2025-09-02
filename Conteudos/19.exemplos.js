@@ -75,3 +75,58 @@ function pegaResto(x, ...y){
 pegaResto(1, 2, 3, 4, 5);
 pegaResto(2, 3);
 pegaResto(2, 3, 7, 8);
+
+// Getters e Setters
+
+class garrafa{
+    constructor(cor = "Preta", cheia = false){
+        this.cor = cor;
+        this.cheia = cheia;
+    };
+
+    get corGarrafa(){
+        return this.cor;
+    }
+
+    get garrafaCheia(){
+        return this.cheia;
+    }
+
+    set corGarrafa(x){
+        this.cor = x;
+    }
+
+    set garrafaCheia(x){
+        this.cheia = x;
+    }
+
+    toString() {
+        return `A garrafa ${this.cor} está ${this.cheia ? "cheia" : "vazia"}`;
+    }
+}
+
+const garrafaSults = new garrafa("Preta", false);
+
+console.log(garrafaSults.toString());
+
+garrafaSults.garrafaCheia = true;
+
+console.log(garrafaSults.toString());
+
+const novaGarrafa = new garrafa()
+
+console.log(novaGarrafa.toString());
+
+garrafaSults.garrafaCheia = true;
+novaGarrafa.corGarrafa = "Amarelo";
+
+console.log(novaGarrafa.toString());
+
+// Spread Operators
+
+const lista1 = [1, 2];
+const lista2 = [44, 87];
+
+const listaTotal = [...lista1, ...lista2];
+
+console.log(listaTotal);

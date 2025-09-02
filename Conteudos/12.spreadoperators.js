@@ -7,6 +7,12 @@ console.log(listaTotal);
 
 const objeto = {a: 1, b:"a"};
 
-const objetoCopia = {...objeto} // Diferente de const objetoCopia = objeto
+let objetoCopia = ""
+
+objetoCopia = objeto;
+
+console.log(objeto, objetoCopia, objeto === objetoCopia)
+
+objetoCopia = {...objeto}; // Diferente de const objetoCopia = objeto
 
 console.log(objeto, objetoCopia, objeto === objetoCopia)
