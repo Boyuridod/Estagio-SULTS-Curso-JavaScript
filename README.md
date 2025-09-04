@@ -1,16 +1,16 @@
 # 🚀 Estágio Curso JavaScript - SULTS  
 
 Bem-vindo(a) ao repositório do meu estágio na **SULTS**!  
-Aqui estão meus programas e exercícios de fixação em **JavaScript**, feitos para praticar conceitos fundamentais da linguagem.  
+Aqui estão meus programas e exercícios de fixação em **JavaScript**, **HTML** e **CSS**, feitos para praticar conceitos fundamentais da linguagem.  
 
 ---
 
 ## 🏆 Destaques
 
 - 📌 `15.recursao.js` → Nele está a função de exponenciação rápida
-- 📌 `18.memoization.js` → Aprendi o conceito de memoization, armazenar informações úteis em cache
+- 📌 `18.memoization.js` → Nele está uma função otimizada de gerar a Sequencia de Fibonacci
 
-## 📂 Conteúdos
+## 📂 Curso de JavaScript
 
 - 📌 `1.ArrowFunction.js` → Funções de seta (Arrow Functions)  
 - 📌 `2.IIFE.js` → Funções auto-executáveis (Immediately Invoked Function Expressions)  
@@ -33,15 +33,13 @@ Aqui estão meus programas e exercícios de fixação em **JavaScript**, feitos 
 - 📌 `17.GettersSetters.js` → Uso de **getters e setters**
 - 📌 `18.memoization.js` → Aprendi o conceito de memoization, armazenar informações úteis em cache
 
-Se você quiser, posso organizar toda a lista em **ordem numerada e padronizada**, deixando os nomes dos arquivos todos em minúsculas e consistentes, pronto para documentação. Quer que eu faça isso?
-
-
 ---
 
 ## 🎥 Referências
 
 📚 Playlist usada como referência para os estudos:  
-👉 [Curso de JavaScript (YouTube)](https://www.youtube.com/playlist?list=PL-R1FQNkywO4sD42B6OI6KjG3uOPT0aNl)  
+👉 [Curso de JavaScript (YouTube)](https://www.youtube.com/playlist?list=PL-R1FQNkywO4sD42B6OI6KjG3uOPT0aNl)
+👉 Curso Web Frontend Fundamentos HTML CSS JS + de 10 Projetos na Udemy
 
 ---
 
