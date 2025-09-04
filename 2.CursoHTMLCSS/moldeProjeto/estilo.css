@@ -1,0 +1,37 @@
+:root{
+    --header-height: 5vh;
+    --footer-height: 10vh;
+    --colorRed: rgba(255, 0, 0);
+    --colorGray: rgba(128, 128, 128);
+    --colorBlack: rgba(0, 0, 0);
+    --colorWhite: rgba(255, 255, 255);
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    top: 0;
+    left: 0;
+    background-color: var(--colorRed);
+    color: var(--colorWhite);
+    position: fixed;
+    width: 100vw;
+    height: var(--header-height);
+}
+
+main{
+    background-color: var(--colorGray);
+    color: var(--colorBlack);
+    margin-top: var(--header-height);
+    height: calc(200vh - var(--footer-height));
+    width: 100vw;
+}
+
+footer{
+    background-color: var(--colorBlack);
+    color: var(--colorWhite);
+    width: 100vw;
+    height: var(--footer-height);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border radius</title>
+    <style>
+        body{
+            width: 100px;
+            height: 100vh;
+            margin: auto auto;
+        }
+        div{
+            background-color: orange;
+            height: 20vh;
+            width: 20vh;
+            border-radius: 50px 20px 100px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+        b{
+            background-color: orange;
+            height: 20vh;
+            width: 20vh;
+            border-radius: 50px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- TODO Perguntar pq que aparece uma div invisivel no chrome e inspecionar elemento -->
+    <div>A</div>
+    <div class="b">B</div>
+</body>
+</html>
