@@ -39,7 +39,7 @@ Aqui estão meus programas e exercícios de fixação em **JavaScript**, **HTML*
 
 📚 Playlist usada como referência para os estudos:  
 👉 [Curso de JavaScript (YouTube)](https://www.youtube.com/playlist?list=PL-R1FQNkywO4sD42B6OI6KjG3uOPT0aNl)
-👉 Curso Web Frontend Fundamentos HTML CSS JS + de 10 Projetos na Udemy
+👉 Curso Web Frontend Fundamentos HTML CSS JS + de 10 Projetos na Udemy e [Repositório do GitHun do curso](https://github.com/serfrontend/CursoWebFundamentosV2/tree/main)
 
 ---
 
