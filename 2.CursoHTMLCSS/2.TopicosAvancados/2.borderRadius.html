@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Border radius</title>
     <style>
-        div {
+       .path {
             background-color: orange;
             height: 20vh;
             width: 20vh;
@@ -18,17 +18,11 @@
             /* Centraliza */
         }   
 
-        .circulos {
-            background-color: orange;
-            height: 20vh;
-            width: 20vh;
+        .path.circulos {
             border-radius: 100px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
 
-        .elipses {
+        .path.elipses {
             border-radius: 50px / 150px;
         }
     </style>
@@ -36,9 +30,9 @@
 
 <body>
     <!-- TODO Perguntar pq que aparece uma div invisivel no chrome e inspecionar elemento -->
-    <div>A</div>
-    <div class="circulos">B</div>
-    <div class="elipses">B</div>
+    <div class="path">A</div>
+    <div class="path circulos">B</div>
+    <div class="path elipses">B</div>
 </body>
 
 </html>
