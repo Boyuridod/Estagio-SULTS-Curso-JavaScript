@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .transition1{
+            background-color: brown;
+            width: 200px;
+            height: 100px;
+            margin: 50px auto;
+
+            /* Qual propriedade eu vou animar */
+            transition-property: width, height;
+            transition-duration: 1.5s
+        }
+
+        .transition1:hover{
+            width: 600px;
+            height: 200px;
+        }
+
+        .transition2{
+            background-color: brown;
+            width: 200px;
+            height: 100px;
+            margin: 50px auto;
+
+            /* Qual propriedade eu vou animar */
+            transition-property: width, height;
+            transition-duration: 1s;
+            transition-timing-function: cubic-bezier(.56,-1,.53,1.5);
+            /* Cubic bezier help: https://cubic-bezier.com/*/
+        }
+
+        .transition2:hover{
+            width: 600px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="transition1">Um</div>
+    <div class="transition2">Dois</div>
+</body>
+</html>
