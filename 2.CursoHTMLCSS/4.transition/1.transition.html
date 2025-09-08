@@ -32,16 +32,34 @@
             transition-duration: 1s;
             transition-timing-function: cubic-bezier(.56,-1,.53,1.5);
             /* Cubic bezier help: https://cubic-bezier.com/*/
+            transition-delay: .5s;
         }
 
         .transition2:hover{
             width: 600px;
             height: 200px;
         }
+
+        .t3{
+            background-color: brown;
+            width: 200px;
+            height: 100px;
+            margin: 50px auto;
+
+            transition: all, 1s, ease, .1s;
+
+        }
+
+        .t3:hover{
+            width: 600px;
+            height: 200px;
+            background-color: yellow;
+        }
     </style>
 </head>
 <body>
     <div class="transition1">Um</div>
     <div class="transition2">Dois</div>
+    <div class="t3">Transition 3</div>
 </body>
 </html>
