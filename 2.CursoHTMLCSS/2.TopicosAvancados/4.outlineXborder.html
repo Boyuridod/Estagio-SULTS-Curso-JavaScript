@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outline versus Border</title>
+    <style>
+        .divs {
+            height: 100px;
+            width: 300px;
+            margin: 30px auto;
+
+            box-sizing: border-box;
+        }
+
+        .divs.Border {
+            border: 4px solid black;
+            background-color: blue;
+            color: white;
+        }
+
+        .divs.Outline {
+            outline: 4px solid red;
+            background-color: black;
+            color: white;
+        }
+
+        .divs.Border:hover {
+            border: 10px solid red;
+
+        }
+
+        .divs.Outline:hover{
+            outline: 10px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="divs Border">Border</div>
+    <div class="divs Outline">Outline</div>
+</body>
+
+</html>
