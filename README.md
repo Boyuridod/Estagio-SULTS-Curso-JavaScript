@@ -1,7 +1,7 @@
 # 🚀 Estágio Curso JavaScript - SULTS  
 
 Bem-vindo(a) ao repositório do meu estágio na **SULTS**!  
-Aqui estão meus programas e exercícios de fixação em **JavaScript**, **HTML** e **CSS**, feitos para praticar conceitos fundamentais da linguagem.  
+Aqui estão meus programas e exercícios de fixação em **JavaScript**, feitos para praticar conceitos fundamentais da linguagem.  
 
 ---
 
@@ -39,6 +39,10 @@ Aqui estão meus programas e exercícios de fixação em **JavaScript**, **HTML*
 
 📚 Playlist usada como referência para os estudos:  
 👉 [Curso de JavaScript (YouTube)](https://www.youtube.com/playlist?list=PL-R1FQNkywO4sD42B6OI6KjG3uOPT0aNl)
+
+---
+## Autor
+**Yuri Duarte**
 
 ---
 
