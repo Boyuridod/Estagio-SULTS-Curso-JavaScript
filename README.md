@@ -33,17 +33,12 @@ Aqui estão meus programas e exercícios de fixação em **JavaScript**, **HTML*
 - 📌 `17.GettersSetters.js` → Uso de **getters e setters**
 - 📌 `18.memoization.js` → Aprendi o conceito de memoization, armazenar informações úteis em cache
 
-## 📂 Curso de HTML e CSS
-
-<!-- - 📌 `` →  -->
-
 ---
 
 ## 🎥 Referências
 
 📚 Playlist usada como referência para os estudos:  
 👉 [Curso de JavaScript (YouTube)](https://www.youtube.com/playlist?list=PL-R1FQNkywO4sD42B6OI6KjG3uOPT0aNl)
-👉 [Curso Web Frontend Fundamentos HTML CSS JS + de 10 Projetos](https://serliv.com/html-css-js) e [Repositório do GitHub do curso](https://github.com/serfrontend/CursoWebFundamentosV2/tree/main)
 
 ---
 
